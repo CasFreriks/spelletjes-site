@@ -41,6 +41,10 @@
     </div>
 </div>
 
+<?php include_once ("../private/shared/footer.php")?>
+
+
+
 
 </body>
 </html>
