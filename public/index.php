@@ -17,14 +17,21 @@
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-md-4">
-            <div class="spel"></div>
+        <div  class="col-md-4">
+            <div class="spel">
+                <a href="spel-1/index.php">Pixelart maker</a>
+            </div>
         </div>
         <div class="col-md-4">
-            <div class="spel"></div>
+            <div class="spel">
+                
+                <a href="spel-2/pacman-canvas-master/index.html">Corona Pacman</a>
+            </div>
         </div>
         <div class="col-md-4">
-            <div class="spel"></div>
+            <div class="spel">
+                <a href="spel-3/index.php">Snake</a>
+            </div>
         </div>
     </div>
 
