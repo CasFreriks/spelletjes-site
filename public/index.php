@@ -24,7 +24,6 @@
         </div>
         <div class="col-md-4">
             <div class="spel">
-                
                 <a href="spel-2/pacman-canvas-master/index.html">Corona Pacman</a>
             </div>
         </div>
