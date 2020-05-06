@@ -7,6 +7,41 @@
     box-shadow: 5px 7px 8px #0000004D;
 }
 
+.spel-1 {
+    width:80%;
+    background-image: url("../img/pixel_art.jpg");
+    background-size: cover;
+    background-position: center;
+    height:250px;
+    margin:30px auto 0 auto;
+    border-radius: 10px;
+    box-shadow: 5px 7px 8px #0000004D;
+}
+
+.spel-2 {
+    width:80%;
+    background-image: url("../img/pacman.JPG");
+    background-size: cover;
+    background-position: center;
+    height:250px;
+    margin:30px auto 0 auto;
+    border-radius: 10px;
+    box-shadow: 5px 7px 8px #0000004D;
+}
+
+
+.spel-3 {
+    width:80%;
+    background-image: url("../img/snake.jpg");
+    background-size: cover;
+    background-position: center;
+    height:250px;
+    margin:30px auto 0 auto;
+    border-radius: 10px;
+    box-shadow: 5px 7px 8px #0000004D;
+}
+
+
 .spel:hover {
     -webkit-transform: scale(1.1); /* Safari and Chrome */
     -moz-transform: scale(1.1); /* Firefox */

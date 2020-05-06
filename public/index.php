@@ -18,20 +18,31 @@
 <div class="container-fluid">
     <div class="row">
         <div  class="col-md-4">
-            <div class="spel">
-                <a href="spel-1/index.php">Pixelart maker</a>
-            </div>
+            <a href="spel-1/index.php">
+                <div class="spel-1">
+
+                </div>
+            </a>
         </div>
         <div class="col-md-4">
+<<<<<<< HEAD
+            <a href="spel-2/pacman-canvas-master/index.html">
+                <div class="spel-2">
+
+                </div>
+            </a>
+=======
             <div class="spel">
-                
                 <a href="spel-2/pacman-canvas-master/index.html">Corona Pacman</a>
             </div>
+>>>>>>> 15e9c3b12c289a213365ac36f0354556dd44ae42
         </div>
         <div class="col-md-4">
-            <div class="spel">
-                <a href="spel-3/index.php">Snake</a>
-            </div>
+            <a href="spel-3/index.php">
+                <div class="spel-3">
+
+                </div>
+            </a>
         </div>
     </div>
 
