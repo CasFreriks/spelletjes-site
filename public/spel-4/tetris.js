@@ -250,6 +250,7 @@ function CONTROL(event){
         dropStart = Date.now();
     }else if(event.keyCode == 40){
         p.moveDown();
+        event.preventDefault();
     }
 }
 
