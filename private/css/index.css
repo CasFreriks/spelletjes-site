@@ -18,6 +18,14 @@
     box-shadow: 5px 7px 8px #0000004D;
 }
 
+.spel-1:hover {
+    -webkit-transform: scale(1.1); /* Safari and Chrome */
+    -moz-transform: scale(1.1); /* Firefox */
+    -ms-transform: scale(1.1); /* IE 9 */
+    -o-transform: scale(1.1); /* Opera */
+    transform: scale(1.01);
+}
+
 .spel-2 {
     width:80%;
     background-image: url("../img/pacman.JPG");
@@ -27,6 +35,14 @@
     margin:30px auto 0 auto;
     border-radius: 10px;
     box-shadow: 5px 7px 8px #0000004D;
+}
+
+.spel-2:hover {
+    -webkit-transform: scale(1.1); /* Safari and Chrome */
+    -moz-transform: scale(1.1); /* Firefox */
+    -ms-transform: scale(1.1); /* IE 9 */
+    -o-transform: scale(1.1); /* Opera */
+    transform: scale(1.01);
 }
 
 
@@ -41,14 +57,55 @@
     box-shadow: 5px 7px 8px #0000004D;
 }
 
-
-.spel:hover {
+.spel-3:hover {
     -webkit-transform: scale(1.1); /* Safari and Chrome */
     -moz-transform: scale(1.1); /* Firefox */
     -ms-transform: scale(1.1); /* IE 9 */
     -o-transform: scale(1.1); /* Opera */
     transform: scale(1.01);
 }
+
+.spel-4 {
+    width:80%;
+    background-image: url("../img/tetris.jpg");
+    background-size: cover;
+    background-position: center;
+    height:250px;
+    margin:30px auto 0 auto;
+    border-radius: 10px;
+    box-shadow: 5px 7px 8px #0000004D;
+}
+
+.spel-4:hover {
+    -webkit-transform: scale(1.1); /* Safari and Chrome */
+    -moz-transform: scale(1.1); /* Firefox */
+    -ms-transform: scale(1.1); /* IE 9 */
+    -o-transform: scale(1.1); /* Opera */
+    transform: scale(1.01);
+}
+
+.spel-5 {
+    width:80%;
+    background-image: url("../img/alieninvasion.jpg");
+    background-size: cover;
+    background-position: bottom;
+    height:250px;
+    margin:30px auto 0 auto;
+    border-radius: 10px;
+    box-shadow: 5px 7px 8px #0000004D;
+}
+
+.spel-5:hover {
+    -webkit-transform: scale(1.1); /* Safari and Chrome */
+    -moz-transform: scale(1.1); /* Firefox */
+    -ms-transform: scale(1.1); /* IE 9 */
+    -o-transform: scale(1.1); /* Opera */
+    transform: scale(1.01);
+}
+
+
+
+
 
 .colorLine {
     background-color:#F2A541;

@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    width:100%;
 }
 ol, ul {
 	list-style: none;
@@ -47,12 +48,19 @@ table {
 	border-spacing: 0;
 }
 
+h3 {
+    text-align: center;
+    padding-top:10px;
+}
+
 
 /* Center the container */
+.container-fluid {
+    display: flex;
+    justify-content: center;
+}
 #container {
   padding-top:50px;
-  margin:0 auto;
-  width:480px;
 }
 
 /* Give canvas a background */

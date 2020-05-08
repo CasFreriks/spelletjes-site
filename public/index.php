@@ -42,10 +42,14 @@
 
     <div class="row">
         <div class="col-md-4">
-            <div class="spel"></div>
+            <a href="spel-4/index.php">
+                <div class="spel-4"></div>
+            </a>
         </div>
         <div class="col-md-4">
-            <div class="spel"></div>
+            <a href="spel-5/index.php">
+                <div class="spel-5"></div>
+            </a>
         </div>
         <div class="col-md-4">
             <div class="spel"></div>
