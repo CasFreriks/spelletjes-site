@@ -153,6 +153,7 @@
 
         document.addEventListener("keydown", function(evt) {
             keystate[evt.keyCode] = true;
+            evt.preventDefault();
         });
         document.addEventListener("keyup", function(evt) {
             delete keystate[evt.keyCode];
