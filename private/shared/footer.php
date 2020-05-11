@@ -7,31 +7,15 @@
         <!-- Grid row-->
         <div class="row text-center d-flex justify-content-center pt-5 mb-3">
 
-            <!-- Grid column -->
-            <div class="col-md-2 mb-3">
-                <h6 class="text-uppercase font-weight-bold">
+        <div class="col-md-12">
 
-                </h6>
-            </div>
-            <!-- Grid column -->
-
-            <!-- Grid column -->
-            <div class="col-md-2 mb-3">
-                <h6 class="text-uppercase font-weight-bold">
-
-                </h6>
-            </div>
-            <!-- Grid column -->
-
-            <!-- Grid column -->
-            <div class="col-md-2 mb-3">
-                <h6 class="text-uppercase font-weight-bold">
-
-                </h6>
-            </div>
-            <!-- Grid column -->
+            <audio controls autoplay>
+                <source src="http://icecast-qmusic.cdp.triple-it.nl/Qmusic_nl_live_96.mp3" type="audio/mp3">
+            </audio>
+        </div>
 
         </div>
+
         <!-- Grid row-->
         <hr class="rgba-white-light" style="margin: 0 15%;">
 
