@@ -8,8 +8,9 @@
         <div class="row text-center d-flex justify-content-center pt-5 mb-3">
 
         <div class="col-md-12">
+            <h5>Qmusic live</h5>
 
-            <audio controls autoplay>
+            <audio controls>
                 <source src="http://icecast-qmusic.cdp.triple-it.nl/Qmusic_nl_live_96.mp3" type="audio/mp3">
             </audio>
         </div>
