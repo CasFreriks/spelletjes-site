@@ -1,0 +1,17 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+    display: block;
+}
+
+.p5Canvas {
+    margin:auto;
+}
+
+h4 {
+    text-align: center;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
