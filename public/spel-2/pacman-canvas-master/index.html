@@ -4,7 +4,7 @@
 <html lang="en" manifest="cache.manifest">
 <head>
 	<meta charset="utf-8" />
-	<title>Pacman in HTML 5 Canvas</title>
+	<title>Corona Pacman</title>
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="pacman-canvas.css">
 	<link rel="manifest" href="manifest.json">
@@ -12,10 +12,7 @@
 
 	<!-- SEO Stuff -->
     <meta name="description" content="Play Pacman Canvas for free on your desktop or mobile. This whole game is open source an was created in HTML5." />
-    <link rel="canonical" href="http://pacman.platzh1rsch.ch/" />
-    <meta name="author" content="platzh1rsch.ch" />
-    <meta name="publisher" content="platzh1rsch.ch" />
-    <meta name="copyright" content="&copy; Copyright (c) platzh1rsch.ch" />
+  
     <meta name="robots" content="index,follow" />
     <meta http-equiv="content-language" content="de">
     <meta name="language" content="de">
@@ -25,10 +22,10 @@
     <meta content="pacman.platzh1rsch.ch" name="target" />
 
    	<!-- Facebook Open Graph Information -->
-	<meta property="og:image" content="http://pacman.platzh1rsch.ch/img/Icon-200x200.png"/>
+	
     <meta property="og:title" content="Pacman Canvas in HTML5" />
 	<meta property="og:description" content="Play Pacman Canvas for free on your desktop or mobile. This whole game is open source an was created in HTML5." />
-    <meta property="og:url" content="http://pacman.platzh1rsch.ch/" />
+    
     <meta property="og:site_name" content="Pacman Canvas in HTML5" />
 	<meta property="og:locale" content="en_US" />
 
@@ -36,7 +33,7 @@
 	<link rel="shortcut icon" href="img/Icon-130x130.png" />
 	<link rel="apple-touch-icon" href="img/Icon-130x130.png" />
 
-    <meta property="og:image" content="http://pacman.platzh1rsch.ch/img/Icon-130x130.png"/>
+
 
 	<!-- AppsFuel verification code -->
 	<meta name="appsfuel_code" content="83d3cedc1050a5c"/>
@@ -94,7 +91,50 @@
 	</div>
 </div>
 
+<!-- INSTRUCTIONS -->
+<div class="content" id="instructions-content">
+	<div class="button" id="back">&lt; back</div>
+	<div>
+		<h1>Instructions</h1>
+		<div class="nomobile">
+			<h2>Controls</h2>
+			<p>Gebruik de pijltjes toetsen of de letter toetsen [W,A,S,D] om de pacman naar de juiste richting te sturen.</p>
+			<p>om de game te pauzeren gebruik de spatie balk of klik op het spel.</p>
+		</div>
 
+		<div>
+			<h2>Ghosts</h2>
+			<p>De coronas jagen op de pacman</p>
+			<p>elke corona heeft zijn eigen strategie om de pacman op te eten.</p>
+			<h3>corona 1<img src="img/corona_icon.svg" class="pull-right"></h3>
+			Corona 1 blijft in het coronahuis tot de pacman minstens 30 balletjes heeft opgegeten.
+			<h3>Corona 2 <img src="img/corona_icon2goed.svg" class="pull-right"></h3>
+			Corona 2 is het meest agressief. hij probeert gelijk de pacman te pakken.
+			<h3>Corona 3<img src="img/corona_icon3.svg" class="pull-right"></h3>
+			Corona 3 probeert ook gelijk de pacman te pakken.
+			<h3>Corona 4<img src="img/corona_icon4.svg" class="pull-right"></h3>
+			Corona 4 blijft in het Corona huis tot de pacman 2/3 balletjes heeft opgegeten.
+		</div>
+
+		<div>
+			<h2>Corona moods</h2>
+			De Coronas hebben twee verschillende moods die veranderen terwijl je het spel speelt.
+			<h3>Scatter mood</h3>
+			<p>dit is een moeilijke mood. wanneer de Coronas in de scatter mood, ze gaan terug naar het corona huis en blijven daar.</p>
+			
+		</div>
+
+		<div>
+			<h2>Items</h2>
+			<h3>balletjes</h3>
+			<p>het doel van elk level is, om elk witte balletje op te eten zonder te worden geraakt door de coronas. 1 balletje is 10 punten waard.</p>
+			<h3>Powerballetjes</h3>
+			<p>in elk level zijn er 4 powerballetjes, die zijn iets groter dan de gewone. als de pacman er een eet, dan wordt hij sterk genoeg om de coronas te kunnen opeten. je kunt dat zien door dat de coronas blauw kleuren. een powerballetje is 50 punten waard.</p>
+			<p>als de pacman een corona eet is dat 100 punten waard en de corona gaat terug naar het corona huis.</p>
+		</div>
+
+	</div>
+</div>
 
 
 
@@ -161,6 +201,7 @@
 			<ul>
 				<li class="button" id="newGame">New Game</li>
 				<li class="button" id="highscore">Highscore</li>
+				<li class="button" id="instructions">Instructions</li>
 				
 			</ul>
 			
