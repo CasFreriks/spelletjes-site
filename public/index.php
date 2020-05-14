@@ -52,7 +52,9 @@
             </a>
         </div>
         <div class="col-md-4">
-            <div class="spel"></div>
+            <a href="spel-6/index.php">
+                <div class="spel-6"></div>
+            </a>
         </div>
     </div>
 </div>

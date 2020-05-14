@@ -7,31 +7,16 @@
         <!-- Grid row-->
         <div class="row text-center d-flex justify-content-center pt-5 mb-3">
 
-            <!-- Grid column -->
-            <div class="col-md-2 mb-3">
-                <h6 class="text-uppercase font-weight-bold">
+        <div class="col-md-12">
+            <h5>Qmusic live</h5>
 
-                </h6>
-            </div>
-            <!-- Grid column -->
-
-            <!-- Grid column -->
-            <div class="col-md-2 mb-3">
-                <h6 class="text-uppercase font-weight-bold">
-
-                </h6>
-            </div>
-            <!-- Grid column -->
-
-            <!-- Grid column -->
-            <div class="col-md-2 mb-3">
-                <h6 class="text-uppercase font-weight-bold">
-
-                </h6>
-            </div>
-            <!-- Grid column -->
+            <audio controls>
+                <source src="http://icecast-qmusic.cdp.triple-it.nl/Qmusic_nl_live_96.mp3" type="audio/mp3">
+            </audio>
+        </div>
 
         </div>
+
         <!-- Grid row-->
         <hr class="rgba-white-light" style="margin: 0 15%;">
 
@@ -40,11 +25,7 @@
 
             <!-- Grid column -->
             <div class="col-md-8 col-12 mt-5">
-                <p style="line-height: 1.7rem">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                    accusantium doloremque laudantium, totam rem
-                    aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-                    explicabo.
-                    Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.</p>
+                <p style="line-height: 1.7rem">Deze website is gemaakt door Cas, Jelske, Jordy en Damiën voor het Corona project van school.</p>
             </div>
             <!-- Grid column -->
 
