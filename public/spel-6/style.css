@@ -8,10 +8,17 @@ canvas {
 
 .p5Canvas {
     margin:auto;
+    position: relative;
+    bottom: 306px;
 }
 
-h4 {
-    text-align: center;
-    padding-top:20px;
-    padding-bottom: 20px;
+.coronaSweeperImg {
+    margin:20px auto;
+    display: block;
+    height:100px;
+}
+
+footer {
+    position: relative;
+    top: 577px;
 }

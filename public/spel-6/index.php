@@ -18,8 +18,9 @@
 
 <?php require_once("../../private/shared/nav.php")?>
 
-<h4>Corona Sweeper</h4>
+<img class="coronaSweeperImg" src="../../private/img/coronasweeper_logo.jpg" draggable="false" alt="CoronaSweeper">
 
+<?php require_once("../../private/shared/footer.php")?>
 
 <script src="sketch.js"></script>
 <script src="cell.js"></script>
