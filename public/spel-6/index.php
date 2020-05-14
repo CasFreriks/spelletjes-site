@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../private/img/flaticon.jpg">
-    <title>Spelletjes-website | Home</title>
+    <title>Spelletjes-website | CoronaSweeper</title>
     <script src="p5.min.js"></script>
     <script src="p5.dom.min.js"></script>
     <script src="p5.sound.min.js"></script>
